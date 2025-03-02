@@ -1,8 +1,8 @@
 # LLMSCAN
 
-LLMSCAN is a tool designed to parse and analyze source code to instantiate LLM-based program analysis. Based on Tree-sitter, it provides functionality to identify and extract functions from the source code, along with their metadata such as function name, line numbers, parameters, call sites, and other program constructs (including branches and loops). Importantly, it achieves light-weighted call graph analysis based on parsing, which enables more effective code browsing and navigation for real-world programs. The latest version of LLMSCAN can support four programming languages, including C, C++, Java, and Python.
+LLMSCAN is a tool designed to parse and analyze source code to instantiate LLM-based program analysis. Based on Tree-sitter, it provides functionality to identify and extract functions from the source code, along with their metadata such as function name, line numbers, parameters, call sites, and other program constructs (including branches and loops). Importantly, it achieves light-weighted call graph analysis based on parsing, which enables more effective code browsing and navigation for real-world programs. The latest version of LLMSCAN can support five programming languages, including C, C++, Java, Python, and Go.
 
-**Attention**: Considering the language syntax differences, we give up supporting multiple languages in main branch. Since 2024/11/23, the active development branches have been cpp, java, and python.
+**Attention**: Considering the language syntax differences, we give up supporting multiple languages in main branch. Since 2025/03/01, the active development branches have been cpp, java, python, and go.
 
 
 ## Features
@@ -83,6 +83,7 @@ Here are the links to grammar files in Tree-sitter libraries targeting mainstrea
 - C++: https://github.com/tree-sitter/tree-sitter-cpp/blob/master/src/grammar.json
 - Java: https://github.com/tree-sitter/tree-sitter-java/blob/master/src/grammar.json
 - Python: https://github.com/tree-sitter/tree-sitter-python/blob/master/src/grammar.json
+- Go: https://github.com/tree-sitter/tree-sitter-go/blob/master/src/grammar.json
 - JavaScript: https://github.com/tree-sitter/tree-sitter-javascript/blob/master/src/grammar.json
 
 ## Contributing
