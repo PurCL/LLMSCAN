@@ -36,7 +36,10 @@ class BatchScan:
             suffixs = ["java"]
         elif self.language == "Python":
             suffixs = ["py"]
-        
+        elif self.language == "Go":
+            suffixs = ["go"]
+
+
         # Load all files with the specified suffix in the project path
         self.travese_files(project_path, suffixs)
 
@@ -86,7 +89,8 @@ def run_dev_mode():
             "C",
             "C++",
             "Java",
-            "Python"
+            "Python",
+            "Go"
         ],
         help="Specify the language",
     )

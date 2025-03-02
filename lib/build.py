@@ -41,5 +41,6 @@ Language.build_library(
         str(cwd / "vendor/tree-sitter-cpp"),
         str(cwd / "vendor/tree-sitter-java"), 
         str(cwd / "vendor/tree-sitter-python"), 
+        str(cwd / "vendor/tree-sitter-go"), 
     ],
 )

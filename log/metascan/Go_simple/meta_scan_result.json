@@ -1,0 +1,432 @@
+{
+    "1": {
+        "function_end_line": 158,
+        "function_id": 1,
+        "function_name": "CreateHandler",
+        "function_start_line": 37,
+        "if_statements": [
+            {
+                "condition_end_line": 39,
+                "condition_start_line": 39,
+                "condition_str": "indexTemplate == nil",
+                "else_branch_end_line": 0,
+                "else_branch_start_line": 0,
+                "true_branch_end_line": 41,
+                "true_branch_start_line": 39
+            },
+            {
+                "condition_end_line": 44,
+                "condition_start_line": 44,
+                "condition_str": "notFoundTemplate == nil",
+                "else_branch_end_line": 0,
+                "else_branch_start_line": 0,
+                "true_branch_end_line": 46,
+                "true_branch_start_line": 44
+            },
+            {
+                "condition_end_line": 49,
+                "condition_start_line": 49,
+                "condition_str": "packageTemplate == nil",
+                "else_branch_end_line": 0,
+                "else_branch_start_line": 0,
+                "true_branch_end_line": 51,
+                "true_branch_start_line": 49
+            },
+            {
+                "condition_end_line": 66,
+                "condition_start_line": 66,
+                "condition_str": "i >= 5",
+                "else_branch_end_line": 0,
+                "else_branch_start_line": 0,
+                "true_branch_end_line": 68,
+                "true_branch_start_line": 66
+            },
+            {
+                "condition_end_line": 81,
+                "condition_start_line": 81,
+                "condition_str": "x < y",
+                "else_branch_end_line": 0,
+                "else_branch_start_line": 0,
+                "true_branch_end_line": 83,
+                "true_branch_start_line": 81
+            },
+            {
+                "condition_end_line": 86,
+                "condition_start_line": 86,
+                "condition_str": "x > y",
+                "else_branch_end_line": 90,
+                "else_branch_start_line": 88,
+                "true_branch_end_line": 88,
+                "true_branch_start_line": 86
+            },
+            {
+                "condition_end_line": 93,
+                "condition_start_line": 93,
+                "condition_str": "x == y",
+                "else_branch_end_line": 99,
+                "else_branch_start_line": 95,
+                "true_branch_end_line": 95,
+                "true_branch_start_line": 93
+            },
+            {
+                "condition_end_line": 95,
+                "condition_start_line": 95,
+                "condition_str": "x < y",
+                "else_branch_end_line": 99,
+                "else_branch_start_line": 97,
+                "true_branch_end_line": 97,
+                "true_branch_start_line": 95
+            },
+            {
+                "condition_end_line": 102,
+                "condition_start_line": 102,
+                "condition_str": "z > 25",
+                "else_branch_end_line": 106,
+                "else_branch_start_line": 104,
+                "true_branch_end_line": 104,
+                "true_branch_start_line": 102
+            },
+            {
+                "condition_end_line": 109,
+                "condition_start_line": 109,
+                "condition_str": "x != y",
+                "else_branch_end_line": 0,
+                "else_branch_start_line": 0,
+                "true_branch_end_line": 115,
+                "true_branch_start_line": 109
+            },
+            {
+                "condition_end_line": 110,
+                "condition_start_line": 110,
+                "condition_str": "x < y",
+                "else_branch_end_line": 114,
+                "else_branch_start_line": 112,
+                "true_branch_end_line": 112,
+                "true_branch_start_line": 110
+            },
+            {
+                "condition_end_line": 122,
+                "condition_start_line": 122,
+                "condition_str": "pkg.URL != \"\"",
+                "else_branch_end_line": 0,
+                "else_branch_start_line": 0,
+                "true_branch_end_line": 125,
+                "true_branch_start_line": 122
+            },
+            {
+                "condition_end_line": 129,
+                "condition_start_line": 129,
+                "condition_str": "docURL == \"\"",
+                "else_branch_end_line": 0,
+                "else_branch_start_line": 0,
+                "true_branch_end_line": 131,
+                "true_branch_start_line": 129
+            },
+            {
+                "condition_end_line": 134,
+                "condition_start_line": 134,
+                "condition_str": "docBadge == \"\"",
+                "else_branch_end_line": 0,
+                "else_branch_start_line": 0,
+                "true_branch_end_line": 136,
+                "true_branch_start_line": 134
+            }
+        ],
+        "loop_statements": [
+            {
+                "header_end_line": 54,
+                "header_start_line": 54,
+                "header_str": "i := 0; i < 5; i++",
+                "loop_body_end_line": 56,
+                "loop_body_start_line": 54,
+                "loop_statement_end_line": 56,
+                "loop_statement_start_line": 54
+            },
+            {
+                "header_end_line": 58,
+                "header_start_line": 58,
+                "header_str": "i < 5",
+                "loop_body_end_line": 61,
+                "loop_body_start_line": 58,
+                "loop_statement_end_line": 61,
+                "loop_statement_start_line": 58
+            },
+            {
+                "header_end_line": 63,
+                "header_start_line": 63,
+                "header_str": "",
+                "loop_body_end_line": 69,
+                "loop_body_start_line": 63,
+                "loop_statement_end_line": 69,
+                "loop_statement_start_line": 63
+            },
+            {
+                "header_end_line": 72,
+                "header_start_line": 72,
+                "header_str": "index, value := range s",
+                "loop_body_end_line": 74,
+                "loop_body_start_line": 72,
+                "loop_statement_end_line": 74,
+                "loop_statement_start_line": 72
+            },
+            {
+                "header_end_line": 76,
+                "header_start_line": 76,
+                "header_str": "_, value := range s",
+                "loop_body_end_line": 78,
+                "loop_body_start_line": 76,
+                "loop_statement_end_line": 78,
+                "loop_statement_start_line": 76
+            },
+            {
+                "header_end_line": 120,
+                "header_start_line": 120,
+                "header_str": "name, pkg := range config.Packages",
+                "loop_body_end_line": 154,
+                "loop_body_start_line": 120,
+                "loop_statement_end_line": 154,
+                "loop_statement_start_line": 120
+            }
+        ],
+        "parameters": [
+            [
+                "templates",
+                37,
+                1
+            ],
+            [
+                "config",
+                37,
+                0
+            ]
+        ]
+    },
+    "2": {
+        "function_end_line": 169,
+        "function_id": 2,
+        "function_name": "requireMethod",
+        "function_start_line": 160,
+        "if_statements": [
+            {
+                "condition_end_line": 162,
+                "condition_start_line": 162,
+                "condition_str": "r.Method != method",
+                "else_branch_end_line": 0,
+                "else_branch_start_line": 0,
+                "true_branch_end_line": 165,
+                "true_branch_start_line": 162
+            }
+        ],
+        "loop_statements": [],
+        "parameters": [
+            [
+                "method",
+                160,
+                0
+            ],
+            [
+                "handler",
+                160,
+                1
+            ]
+        ]
+    },
+    "3": {
+        "function_end_line": 214,
+        "function_id": 3,
+        "function_name": "newIndexHandler",
+        "function_start_line": 204,
+        "if_statements": [],
+        "loop_statements": [],
+        "parameters": [
+            [
+                "indexTemplate",
+                204,
+                1
+            ],
+            [
+                "pkgs",
+                204,
+                0
+            ]
+        ]
+    },
+    "4": {
+        "function_end_line": 286,
+        "function_id": 4,
+        "function_name": "descends",
+        "function_start_line": 284,
+        "if_statements": [],
+        "loop_statements": [],
+        "parameters": [
+            [
+                "from",
+                284,
+                0
+            ]
+        ]
+    },
+    "5": {
+        "function_end_line": 303,
+        "function_id": 5,
+        "function_name": "serveHTML",
+        "function_start_line": 288,
+        "if_statements": [
+            {
+                "condition_end_line": 289,
+                "condition_start_line": 289,
+                "condition_str": "status >= 400",
+                "else_branch_end_line": 0,
+                "else_branch_start_line": 0,
+                "true_branch_end_line": 291,
+                "true_branch_start_line": 289
+            },
+            {
+                "condition_end_line": 297,
+                "condition_start_line": 297,
+                "condition_str": "err != nil",
+                "else_branch_end_line": 0,
+                "else_branch_start_line": 0,
+                "true_branch_end_line": 302,
+                "true_branch_start_line": 297
+            }
+        ],
+        "loop_statements": [],
+        "parameters": [
+            [
+                "template",
+                288,
+                2
+            ],
+            [
+                "w",
+                288,
+                0
+            ],
+            [
+                "status",
+                288,
+                1
+            ],
+            [
+                "data",
+                288,
+                3
+            ]
+        ]
+    },
+    "6": {
+        "function_end_line": 239,
+        "function_id": 6,
+        "function_name": "rangeOf",
+        "function_start_line": 216,
+        "if_statements": [
+            {
+                "condition_end_line": 217,
+                "condition_start_line": 217,
+                "condition_str": "len(path) == 0",
+                "else_branch_end_line": 0,
+                "else_branch_start_line": 0,
+                "true_branch_end_line": 219,
+                "true_branch_start_line": 217
+            },
+            {
+                "condition_end_line": 229,
+                "condition_start_line": 229,
+                "condition_str": "!descends(path, h.pkgs[idx].Name)",
+                "else_branch_end_line": 0,
+                "else_branch_start_line": 0,
+                "true_branch_end_line": 233,
+                "true_branch_start_line": 229
+            }
+        ],
+        "loop_statements": [
+            {
+                "header_end_line": 228,
+                "header_start_line": 228,
+                "header_str": "idx := start; idx < len(h.pkgs); idx++",
+                "loop_body_end_line": 234,
+                "loop_body_start_line": 228,
+                "loop_statement_end_line": 234,
+                "loop_statement_start_line": 228
+            }
+        ],
+        "parameters": [
+            [
+                "h",
+                216,
+                0
+            ],
+            [
+                "start",
+                216,
+                2
+            ],
+            [
+                "path",
+                216,
+                1
+            ]
+        ]
+    },
+    "7": {
+        "function_end_line": 256,
+        "function_id": 7,
+        "function_name": "ServeHTTP",
+        "function_start_line": 241,
+        "if_statements": [
+            {
+                "condition_end_line": 246,
+                "condition_start_line": 246,
+                "condition_str": "start == end",
+                "else_branch_end_line": 0,
+                "else_branch_start_line": 0,
+                "true_branch_end_line": 251,
+                "true_branch_start_line": 246
+            }
+        ],
+        "loop_statements": [],
+        "parameters": [
+            [
+                "w",
+                241,
+                1
+            ],
+            [
+                "r",
+                241,
+                2
+            ],
+            [
+                "h",
+                241,
+                0
+            ]
+        ]
+    },
+    "8": {
+        "function_end_line": 282,
+        "function_id": 8,
+        "function_name": "ServeHTTP",
+        "function_start_line": 265,
+        "if_statements": [],
+        "loop_statements": [],
+        "parameters": [
+            [
+                "w",
+                265,
+                1
+            ],
+            [
+                "r",
+                265,
+                2
+            ],
+            [
+                "h",
+                265,
+                0
+            ]
+        ]
+    }
+}
