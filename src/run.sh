@@ -10,6 +10,6 @@
 python3 scan.py \
   --language=Go \
   --inference-model gpt-3.5-turbo-0125 \
-  --project-path ../benchmark/Go/simple \
+  --project-path ../benchmark/Go/sally \
   --global-temperature 0.0 \
   --scanners metascan

@@ -334,8 +334,6 @@ class TSAnalyzer:
         :param node: the node of the function
         """
         paras = set([])
-        # parameter_list_nodes = self.find_nodes_by_type(current_function.parse_tree_root_node, "parameter_list")
-
         parameter_list_nodes = []
         for sub_node in current_function.parse_tree_root_node.children:
             if sub_node.type in "parameter_list":
