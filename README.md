@@ -89,6 +89,10 @@ Here are the links to grammar files in Tree-sitter libraries targeting mainstrea
 
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
 
+## License
+
+This project is licensed under [MIT license](LICENSE).
+
 ## Contact
 
 For any questions or suggestions, please contact [stephenw.wangcp@gmail.com](mailto:stephenw.wangcp@gmail.com).
